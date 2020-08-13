@@ -8,7 +8,7 @@ function JourneyEvent(props) {
         <div className="info">
           <header>
             <span>{props.category}</span>
-            <p>0{props.count}</p>
+            <p>{props.count}</p>
           </header>
           <div className="description">
             <h2>{props.title}</h2>

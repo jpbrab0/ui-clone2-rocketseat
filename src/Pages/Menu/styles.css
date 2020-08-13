@@ -1,0 +1,273 @@
+.top-container{
+    margin-top: 54px;
+    width: 100%;
+    display: flex;
+    color: #fff;
+    font-family: Roboto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top-container .title-container h1{
+    display: flex;
+    font-weight: bold;
+    font-size: 3.8rem;
+    color: var(--color-secondary);
+    text-align: center;
+}
+.top-container .title-container h1 b{
+    color: var(--color-green);
+}
+.top-container .description-container{
+    margin-top: 32px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-container .description-container p{
+    margin-right: 23px;
+    color: var(--color-text);
+    text-align: right;
+}
+.top-container .description-container button{
+    cursor: pointer;
+    border-radius: 13px;
+    margin-left: 23px;
+    padding: 23px;
+    width: 20%;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: bold;
+    background:var(--color-primary);
+    color:#fff;
+    transition: background-color 0.2s;
+}
+.top-container .description-container button:hover{
+    background: var(--color-primary-hover);
+}
+.top-container .img-container{
+    margin-top: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-container .img-container img{
+    text-align: center;
+    width: 70%;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+.img-container::after{
+    content: '';
+    position: absolute;
+    top:1;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-25%);
+    -ms-transform: translateY(-25%);
+    transform: translateY(-25%);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: radial-gradient( 50% 50% at 50% 50%,#8257e6 0%,rgba(18,18,20,0) 100% );
+    opacity: 0.4;
+}
+.connections-container{
+    margin:42px auto ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.connections-container .connection-img img{
+    margin-right: 42px;
+}
+.connections-container .description{
+    margin-left: 72px;
+}
+.connections-container .description h1{
+    color: var(--color-secondary);
+    font-family:Archivo;
+    font-weight: bold;
+    font-size: 48px;
+}
+.connections-container .description p{
+    margin-top: 13px;
+    font-size: 18px;
+    color: var(--color-text);
+    font-weight: bold;
+    font-family: Archivo;
+}
+.reward-container{
+    margin-top: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.reward-container .description h1{
+    color: var(--color-secondary);
+    font-family:Archivo;
+    font-weight: bold;
+    font-size: 48px;
+}
+.reward-container .description p{
+    margin-top: 13px;
+    font-size: 18px;
+    color: var(--color-text);
+    font-weight: bold;
+    font-family: Archivo;
+}
+.post-container{
+    margin-top: 142px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.post-container .description h1{
+    color: var(--color-secondary);
+    font-family:Archivo;
+    font-weight: bold;
+    font-size: 48px;
+}
+.post-container .description p{
+    margin-top: 13px;
+    font-size: 18px;
+    color: var(--color-text);
+    font-weight: bold;
+    font-family: Archivo;
+}
+.spoiler-content{
+    margin:10% auto ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.spoiler-content .alert-img img{
+    width: 40%;
+}
+.spoiler-content .description{
+    margin-top: 32px;
+}
+.spoiler-content .description h1{
+    color: var(--color-secondary);
+    font-family:Archivo;
+    font-weight: bold;
+    font-size: 48px;
+}
+.spoiler-content .description p{
+    margin-top: 13px;
+    font-size: 18px;
+    color: var(--color-text);
+    font-weight: bold;
+    font-family: Archivo;
+}
+.spoiler-content .description p:last-child{
+    margin-top: 53px;
+    text-transform: uppercase;
+    color: var(--color-orange);
+    margin-top: 13px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Archivo;
+}
+.journey-container{
+    width: 100%;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.journey-container .title{
+    text-align: left;
+    width: 90%;
+
+}
+.journey-container .title h1{
+    color: var(--color-secondary);
+    font-family:Archivo;
+    font-weight: bold;
+    font-size: 48px;
+}
+.journey-container .title p{
+    margin-top: 13px;
+    font-size: 18px;
+    color: var(--color-text);
+    font-weight: bold;
+    font-family: Archivo;
+}
+.journey-container .events{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.create-account-container{
+    z-index: 9999;
+    margin: 32px auto;
+    width: 60%;
+    max-width: 1120px;
+    padding: 90px ;
+    display: flex;
+    justify-content: space-between;
+    background: var(--color-shape);
+    align-items: center;
+}
+.create-account-container .title h1{
+    font-weight: bold;
+    color: var(--color-secondary);
+    font-family: Archivo;
+    font-size: 48px;
+}
+.create-account-container .title h1 b{
+    color: var(--color-green);
+}
+.create-account-container .title p{
+    color: var(--color-text);
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Archivo;
+}
+.create-account-container .create-button{
+    margin-top: 92px;
+}
+.create-account-container .create-button button{
+    background: var(--color-primary);
+    
+    padding: 23px 43px ;
+    text-align: center;
+    border-radius: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Archivo;
+    font-size: 13px;
+    transition: 0.2s;
+}
+.create-account-container .create-button button:hover{
+    background-color: var(--color-primary-hover);
+}
+footer{
+    line-height: 32px;
+    padding:  93px 43px;
+    padding-top:103px ;
+    color: #fff;
+    font-weight: bold;
+    font-family: Archivo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    background-color: var(--color-black);
+}
+footer a{
+    color: var(--color-primary-hover);
+}
