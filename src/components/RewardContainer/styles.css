@@ -1,0 +1,20 @@
+.reward-container{
+    margin-top: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.reward-container .description h1{
+    color: var(--color-secondary);
+    font-family:Archivo;
+    font-weight: bold;
+    font-size: 48px;
+}
+.reward-container .description p{
+    margin-top: 13px;
+    font-size: 18px;
+    color: var(--color-text);
+    font-weight: bold;
+    font-family: Archivo;
+}

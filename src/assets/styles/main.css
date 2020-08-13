@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;700&family=Montserrat:wght@500;700&family=Roboto:wght@500;700&display=swap');
+:root{
+    --color-background: #121214;
+    --color-green: #04d361;
+    --color-red: #e83f5b;
+    --color-orange: #fd951f;
+    --color-yellow: #f7df1e;
+    --color-primary: #8257e6;
+    --color-primary-hover: #9466ff;
+    --color-secondary: #e1e1e6;
+    --color-text: #a8a8b3;
+    --color-support: #737380;
+    --color-shape: #202024;
+    --color-shape-hover: #29292e;
+    --color-icons: #41414d;
+    --color-borders: #323238;
+    --color-black: #0d0d0f;
+}
+html{
+    background: var(--color-background);
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.green-detail{
+    width: 40px;
+    margin-bottom: 32px;
+    background: var(--color-green);
+    height: 2px;
+}
+button{
+    outline: none;
+}

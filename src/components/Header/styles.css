@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    padding: 13px;
+}
+header .logo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+header .logo-container img{
+    width: 20%;
+}
+header .button-container button{
+    font-family: Archivo;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: #8257e6;
+    color: #fff;
+    border-radius: 13px;
+    border: none;
+    padding: 13px;
+    width: 10vw;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+header .button-container button:hover{
+    background-color: #9466ff;
+}
