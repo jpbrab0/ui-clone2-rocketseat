@@ -15,9 +15,6 @@
     color: var(--color-secondary);
     text-align: center;
 }
-.top-container .title-container h1 b{
-    color: var(--color-green);
-}
 .top-container .description-container{
     margin-top: 32px;
     width: 100%;
